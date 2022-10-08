@@ -2,6 +2,7 @@
 /** @type {import('webpack').Configuration} */
 module.exports = {
     mode: "development",
+    devtool: "source-map", // または 'inline-source-map' など
     module: {
       rules: [
         {
